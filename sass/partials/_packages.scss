@@ -1,0 +1,13 @@
+.packages__element {
+  border: $btn-color 1px solid;
+  &:hover {
+    background-color: $packages-hover;
+    cursor: pointer;
+  }
+}
+
+.home__packages {
+  @media only screen and (max-width: 768px) {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,4 @@
+//Create a mixin that sets the font size from pixels to rem.
+@mixin font-size($pixels: 36) {
+  font-size: ($pixels / 16) + rem;
+}
